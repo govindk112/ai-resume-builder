@@ -33,7 +33,7 @@ const FinalResumeView = ({
             {isOwnerView ? (
               <>
                 <h2 className="text-center text-2xl font-bold">
-                  Congrats! Your ultimate AI-generated resume is ready!
+                  Congrats! Your AI-generated resume is ready!
                 </h2>
                 <p className="text-center text-gray-600">
                   You can now download your resume or share its unique URL with
