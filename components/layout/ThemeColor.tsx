@@ -47,7 +47,7 @@ const ThemeColor = ({ params }: { params: { id: string } }) => {
       });
     } else {
       toast({
-        title: "Uh Oh! Something went wrong.",
+        title: "Oh! Something went wrong.",
         description: result?.error,
         variant: "destructive",
         className: "bg-white",

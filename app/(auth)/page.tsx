@@ -30,7 +30,7 @@ const page = () => {
               </span>
             </Link>
             <Link
-              href="#learn-more"
+              href="https://github.com/exclusiveabhi/ai-resume-builder.git"
               className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-slate-200 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
             >
               <span className="relative text-base font-semibold text-primary">
@@ -95,7 +95,7 @@ const page = () => {
 
         <div className="mt-20 text-center">
           <Link
-            href="#get-started"
+            href="/dashboard"
             className="inline-block rounded-full bg-primary-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary-800 focus:outline-none focus:ring focus:ring-primary-400"
           >
             <div className="flex items-center justify-center">
@@ -110,13 +110,13 @@ const page = () => {
           <span className="text-sm text-gray-500 sm:text-center">
             © 2024{" "}
             <span className="hover:text-primary-500 hover:cursor-pointer">
-              ResumeAI™
+              ResumeCraft
             </span>
             . All Rights Reserved.
           </span>
-          <Link href="https://github.com/Mahmud0808" className="me-4 md:me-6">
+          <Link href="https://github.com/exclusiveabhi" className="me-4 md:me-6">
             <span className="hover:text-primary-500 mt-3 text-sm font-medium text-gray-500 sm:mt-0">
-              Made with ❤️ by Mahmud
+              Made with ❤️ by Abhishek
             </span>
           </Link>
         </div>

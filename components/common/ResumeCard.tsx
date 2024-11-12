@@ -135,7 +135,7 @@ const ResumeCard = ({
           <AlertDialogHeader>
             <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
             <AlertDialogDescription>
-              This action cannot be undone. This will permanently delete your
+              This action cannot be reverse. This will permanently delete your
               account and remove your data from our server.
             </AlertDialogDescription>
           </AlertDialogHeader>

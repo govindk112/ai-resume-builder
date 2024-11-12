@@ -37,7 +37,7 @@ const FinalResumeView = ({
                 </h2>
                 <p className="text-center text-gray-600">
                   You can now download your resume or share its unique URL with
-                  your friends and family.
+                  your friends and others.
                 </p>
                 <p className="text-center text-sm text-gray-500 font-light">
                   For better print quality, adjust your browser's print
