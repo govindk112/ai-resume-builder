@@ -19,7 +19,7 @@
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **Frontend:** Next.js 14
+- **Frontend:** Next.js 14.2.5
 
 - **Authentication:** Clerk
 
