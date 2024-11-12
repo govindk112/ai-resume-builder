@@ -1,90 +1,101 @@
-# Krishi Suvidha 🌾🚜
+# ResumeCraft
 
-**Krishi Suvidha**, your go-to platform for renting farming equipment. Designed with farmers in mind, Krishi Suvidha utilizes the MERN stack and Vite for a seamless and efficient rental experience. Whether you're a farmer looking to rent out your equipment or a renter searching for the right tools, Krishi Suvidha has got you covered !
+**ResumeCraft** is an AI-powered resume builder designed to help users create professional, customized resumes with ease. By leveraging AI, ResumeCraft ensures that each resume is tailored to highlight the user’s skills, experience, and achievements effectively.
 
-## 📦 Features
 
-- **Equipment Listing**: Farmers can easily list their equipment, set availability, and provide detailed informations.
-- **Seamless Rental Process**: Renters can browse, search, and rent equipment with just a few clicks.
-- **Real-Time Chat**: Communicate instantly with equipment owners through our integrated chat system.
-- **Smart Search**: Find exactly what you need with our powerful search functionality.
+## <a name="features">✨ Features</a>
 
-## Note:- Project Under Working ! 
+- **AI-Powered Resume Generation:** Generate a professional resume using AI.
 
-## 📁 Folder Structure
+- **User Authentication:** Secure login and registration with Clerk.
 
-Here's a quick look at the project structure:
+- **Real-Time Preview:** See live updates as you fill out the resume form.
 
-```
-Krishi-Suvidha/
-├── frontend/                        # Frontend application
-│   ├── public/                      # Static assets (images, icons, etc.)
-│   ├── src/
-│   │   ├── assets/                  # Assets like images and icons
-│   │   ├── components/              # Reusable React components
-│   │   ├── pages/                   # Page-specific components
-│   │   ├── services/                # API service calls
-│   │   ├── styles/                  # Global styles and CSS
-│   │   ├── App.jsx                  # Main App component
-│   │   └── index.jsx                # Entry point for the React app
-│   ├── index.html                   # Main HTML file
-│   ├── vite.config.js               # Vite configuration
-│   └── package.json                 # Project metadata and dependencies
-└── backend/                         # Backend application
-    ├── controllers/                 # Route handlers
-    ├── models/                      # Mongoose models
-    ├── routes/                      # API routes
-    ├── utils/                       # Utility functions
-    ├── app.js                       # Main server file
-    ├── .env                         # Environment variables
-    ├── config.js                    # Configuration settings
-    └── package.json                 # Project dependencies
-```
+- **Easy Customization:** Edit sections like experience, education, skills, and more.
 
-## 🚀 Getting Started
+- **Save and Share:** Save your resume and share a link with potential employers.
 
-### Frontend
+- **Responsiveness:** Ensures the application adapts seamlessly to various screen sizes and devices.
 
-1. Navigate to the `frontend` directory:
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- **Frontend:** Next.js 14
+
+- **Authentication:** Clerk
+
+- **AI Integration:** Gemini API
+
+- **Styling:** TailwindCSS
+
+- **Backend:** Node.js
+
+- **Database:** MongoDB
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (v22.0 or later) and **npm** (v6 or later) installed on your computer.
+
+### Installation
+
+1. **Clone the Repository**
+
    ```bash
-   cd frontend
+   git clone https://github.com/exclusiveabhi/ai-resume-builder.git
    ```
 
-2. Install the dependencies:
+2. **Navigate to the Project Directory**
+
    ```bash
-   npm install
+   cd ai-resume-builder
    ```
 
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+2. **Install Dependencies**
 
-4. Open your browser and visit `http://localhost:3000` to see the frontend in action.
-
-### Backend
-
-1. Navigate to the `backend` directory:
-   ```bash
-   cd backend
-   ```
-
-2. Install the dependencies:
    ```bash
    npm install
    ```
 
-3. Start the backend server:
+3. **Start the Frontend Development Server**
+
    ```bash
-   npm start
+   npm run dev
    ```
 
-4. The backend will be available at `http://localhost:5000`.
+   The app will be running on `http://localhost:3000`.
 
-## 📄 Contributing
 
-We welcome contributions to Krishi Suvidha! If you have any ideas or improvements, please submit a pull request or open an issue.
+3. **Configure Environment Variables**
 
-## 💬 Contact
+   Create a `.env.local` file in the `root` directory and set the required environment variables. Refer to `.env.local.example` for the required details.
 
-For any inquiries or support, please reach out to us at [Email](mailto:imexclusiveabhi@gmail.com).
+## Contributing
+
+If you would like to contribute to **ResumeCraft**, please follow these steps:
+
+1. **Fork the Repository**
+2. **Create a New Branch**
+
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+
+3. **Make Your Changes**
+4. **Commit Your Changes**
+
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+
+5. **Push to the Branch**
+
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+6. **Create a Pull Request**
+
+## Contact
+
+For any questions or feedback, please open an issue on the [GitHub repository](https://github.com/exclusiveabhi/ai-resume-builder/issues).
