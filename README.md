@@ -68,7 +68,7 @@
 
 3. **Configure Environment Variables**
 
-   Create a `.env.local` file in the `root` directory and set the required environment variables. Refer to `.env.local.example` for the required details.
+   Create a `.env.local` file in the `root` directory and set the required environment variables. Refer to `.env.local.example` for the required necessary details.
 
 ## Contributing
 
