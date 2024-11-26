@@ -12,7 +12,7 @@ const Dashboard = () => {
           Your Resume Dashboard
         </h2>
         <p className="text-center text-gray-600">
-          Begin creating and managing your personalized resumes.
+          Begin creating and managing your personalized resumes !
         </p>
       </div>
       <div className="p-10 md:px-24 lg:px-48">
