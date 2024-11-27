@@ -21,7 +21,7 @@ const FinalResumeView = ({
   const { formData } = useFormContext();
 
   const handleDownload = () => {
-    window.print();
+    window.print(); //print error yaha hai !
   };
 
   return (
