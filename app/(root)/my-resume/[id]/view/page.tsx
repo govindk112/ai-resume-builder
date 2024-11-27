@@ -25,7 +25,7 @@ export async function generateMetadata({
 
   return {
     title: `${resume?.firstName}${resume?.firstName && " "}
-    ${resume?.lastName}${resume?.lastName && " "}- ResumeCraft`,
+    ${resume?.lastName}${resume?.lastName && " "}- ResumeCraft`,   //download resume name !
     description: `${resume?.firstName} ${resume?.lastName}'s Resume. Powered by ResumeCraft.`,
   };
 }
