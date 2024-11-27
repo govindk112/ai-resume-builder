@@ -18,6 +18,7 @@ const FinalResumeView = ({
   isOwnerView: boolean;
 }) => {
   const path = usePathname();
+  console.log("yeh path hai", path);
   const { formData } = useFormContext();
 
   const handleDownload = () => {
@@ -66,9 +67,10 @@ const FinalResumeView = ({
               >
                 <DownloadIcon className="size-6" /> Download
               </Button>
+
               <RWebShare
                 data={{
-                  text: "Hello everyone, check out my resume by clicking the link !",
+                  text: "Hello everyone, check out my resume by clicking the link!",
                   url: `${process.env.BASE_URL}/${path}`,
                   title: `${formData?.firstName} ${formData?.lastName}'s Resume`,
                 }}
